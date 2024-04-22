@@ -1,0 +1,2 @@
+﻿New-ADGroup -Name "Marketing_Read" -SamAccountName MarketingRead -GroupCategory Security -GroupScope DomainLocal -Path "OU=Toronto,DC=jniagwan,DC=com" -Description "Members of this group are Marketing_Read"
+New-ADGroup -Name "Marketing_FC" -SamAccountName MarketingFC -GroupCategory Security -GroupScope DomainLocal -Path "OU=Toronto,DC=jniagwan,DC=com" -Description "Members of this group are Marketing_FC"
